@@ -21,9 +21,16 @@ pub fn log2hex(place: u32) -> String {
 }
 
 fn powmod(n: u64, m: u32, d: u64) -> u64 {
-    if m <= 1 {
-        return n.pow(m) % d;
+    if m == 0 {
+        1 % d
+    } else if m == 1 {
+        n % d
     } else {
-        return (powmod(n, m / 2, d).pow(2) * powmod(n, m % 2, d)) % d;
+        let k: u64 = powmod(n, m / 2, d);
+        if m % 2 == 0 {
+            (k * k) % d
+        } else {
+            (k * k * n) % d
+        }
     }
 }
