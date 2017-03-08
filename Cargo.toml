@@ -1,0 +1,6 @@
+[package]
+name = "log2hex"
+version = "0.1.0"
+authors = ["itchyny <itchyny@hatena.ne.jp>"]
+
+[dependencies]
