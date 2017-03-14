@@ -2,5 +2,11 @@
 name = "log2hex"
 version = "0.1.0"
 authors = ["itchyny <itchyny@hatena.ne.jp>"]
+description = "Arbitrary place digits viewer of log(2) in base hex written in Rust"
+repository = "https://github.com/itchyny/pihex-rs"
+readme = "README.md"
+license = "MIT"
+keywords = ["math"]
+categories = ["algorithms"]
 
 [dependencies]
