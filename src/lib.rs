@@ -14,9 +14,8 @@ pub fn log2hex(place: u32) -> String {
     (0..4)
         .scan(fraction1 + fraction2, |x, _| {
             *x = (*x - x.floor()) * 16.0;
-            Some(*x)
+            Some(format!("{:x}", x.floor() as u32))
         })
-        .map(|x| format!("{:x}", x.floor() as u64))
         .fold(String::new(), |s, t| s + &t)
 }
 
