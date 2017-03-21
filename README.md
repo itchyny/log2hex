@@ -1,4 +1,4 @@
-# log2hex
+# log2hex &emsp; [![Build Status](https://api.travis-ci.org/itchyny/log2hex.svg?branch=master)](https://travis-ci.org/itchyny/log2hex)
 Arbitrary place digits viewer of log(2) in base hex written in Rust.
 
 ```
