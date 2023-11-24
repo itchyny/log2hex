@@ -1,0 +1,9 @@
+#compdef log2hex
+
+_log2hex()
+{
+  _arguments -S \
+    '1: :_guard "^-*" "place of digits (default: 0)"' \
+    '(- 1 *)'{-V,--version}'[Prints version information]' \
+    '(- 1 *)'{-h,--help}'[Prints help information]'
+}
