@@ -1,6 +1,5 @@
 use std::env;
 
-extern crate log2hex;
 use log2hex::*;
 
 fn main() {

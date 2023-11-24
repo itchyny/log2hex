@@ -1,4 +1,3 @@
-extern crate log2hex;
 use log2hex::*;
 
 #[test]
