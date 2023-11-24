@@ -9,3 +9,16 @@ license = "MIT"
 keywords = ["math"]
 categories = ["algorithms"]
 edition = "2021"
+
+[profile.release]
+lto = true
+strip = true
+codegen-units = 1
+
+[dependencies]
+clap = "4.4.8"
+thiserror = "1.0.50"
+
+[[bin]]
+name = "log2hex"
+doc = false
