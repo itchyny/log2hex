@@ -1,4 +1,8 @@
-# log2hex-rs [![CI Status](https://github.com/itchyny/log2hex-rs/workflows/CI/badge.svg)](https://github.com/itchyny/log2hex-rs/actions)
+# log2hex
+[![CI Status](https://github.com/itchyny/log2hex/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/itchyny/log2hex/actions?query=branch:main)
+[![release](https://img.shields.io/github/release/itchyny/log2hex/all.svg)](https://github.com/itchyny/log2hex/releases)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/itchyny/log2hex/blob/main/LICENSE)
+
 Arbitrary place digits viewer of log(2) in base hex written in Rust.
 
 ```
