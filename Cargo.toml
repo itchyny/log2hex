@@ -1,6 +1,6 @@
 [package]
 name = "log2hex"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["itchyny <itchyny@cybozu.co.jp>"]
 description = "Arbitrary place hexadecimal digits viewer of log(2) written in Rust"
 repository = "https://github.com/itchyny/log2hex"
