@@ -20,8 +20,21 @@ Arbitrary place digits viewer of log(2) in base hex written in Rust.
 1000000: 1848 9a94 06ec 9f80 4d3f 0ae1 af64 e6d5
 ```
 
+## Installation
+### Homebrew
+```shell
+brew install itchyny/tap/log2hex
+```
+
+### Build from source
+```shell
+git clone https://github.com/itchyny/log2hex
+cd log2hex
+cargo install --path .
+```
+
 ## Author
-itchyny (https://github.com/itchyny)
+itchyny (<https://github.com/itchyny>)
 
 ## License
 This software is released under the MIT License, see LICENSE.
